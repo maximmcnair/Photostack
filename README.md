@@ -1,8 +1,7 @@
 # Photostack jQuery Plugin (v.Beta)
 
 ##Basic HTML structure
-'''
-<div id="photostack">
+'''<div id="photostack">
   <img src="img/jenniferlo_photo2.jpg" class="image" alt="jenniferlo_photo2">
   <img src="img/jenniferlo_photo4.jpg" class="image" alt="jenniferlo_photo4">
   <img src="img/jenniferlo_photo1.jpg" class="image" alt="jenniferlo_photo1">
@@ -11,8 +10,7 @@
 '''
 
 ##Javascript Initialization
-'''
-$(document).ready(function(){
+'''$(document).ready(function(){
   $('#photostack').photostack({
     speed: 800
   });
