@@ -1,0 +1,53 @@
+body {
+  background: #eee url("img/bg.png");
+}
+.container {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px -250px;
+}
+#photostack img {
+  border: 10px solid #fff;
+  position: absolute;
+  box-shadow: 1px 1px 15px rgba(30,30,30,0.30);
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+}
+#photostack ul.pagination {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#photostack div.prev,
+#photostack div.next {
+  position: absolute;
+  bottom: 50%;
+}
+#photostack div.prev span,
+#photostack div.next span {
+  text-indent: -9999px;
+  height: 33px;
+  width: 15px;
+  display: block;
+  background: url("img/arrows.png") no-repeat;
+}
+#photostack div.prev {
+  left: -100px;
+}
+#photostack div.prev span {
+  background-position: 0px 0px;
+}
+#photostack div.prev span:hover {
+  background-position: 0px -33px;
+}
+#photostack div.next {
+  right: -100px;
+}
+#photostack div.next span {
+  background-position: -15px 0px;
+}
+#photostack div.next span:hover {
+  background-position: -15px -33px;
+}
