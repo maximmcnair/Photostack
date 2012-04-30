@@ -7,7 +7,7 @@
             'speed'         : 500,
             'generatePagination' : false,
             'generateNextPrev' : true,
-            'autoplay' : true,
+            'autoplay' : false,
             'next' : 'next',
             'prev' : 'prev',
             'captions' : false
